@@ -1,0 +1,55 @@
+body{
+    background-image: url('images/backgrnd.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(250, 239, 196);
+}
+header{
+    font-size: x-large;
+    color: black;
+}
+.one-note{
+    text-align: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    border: 5px solid black;
+    padding: 9%;
+    background-color: rgba(252, 235, 168, 0.138);
+}
+.extra-info{
+    text-align: right;
+    color: rgba(255, 255, 255, 0.59);
+    margin-right: 5px;
+}
+ol{
+    text-align: left;
+}
+
+@media only screen and (min-width: 1080px) {
+    .one-note{
+        width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 6%;
+        margin-bottom: 6%;
+    }
+}
+@media only screen and (max-width: 720px) {
+    .one-note{
+        width: 55%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 6%;
+        margin-bottom: 6%;
+        font-size: smaller;
+    }
+    .extra-info{
+        margin-right: 10px;
+        font-size: smaller;
+    }
+}

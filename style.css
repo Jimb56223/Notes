@@ -7,8 +7,14 @@ body{
     color: rgb(250, 239, 196);
 }
 header{
-    font-size: x-large;
+    font-size: 270%;
     color: black;
+}
+.intro{
+    font-size: 170%;
+    text-align: right;
+    color: rgba(255, 255, 255, 0.59);
+    margin-right: 5%;
 }
 .one-note{
     text-align: center;
@@ -20,10 +26,33 @@ header{
     border: 5px solid black;
     padding: 9%;
     background-color: rgba(252, 235, 168, 0.138);
+    padding: 4%;
+}
+.two-note{
+    text-align: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    border: 5px solid black;
+    padding: 9%;
+    background-image: url('images/yingyang.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    color: rgb(250, 239, 196);
+    padding: 4%;
 }
 .extra-info{
     text-align: right;
-    color: rgba(255, 255, 255, 0.59);
+    color: rgba(143, 141, 141, 0.782);
+    margin-right: 5px;
+}
+.extra-info-01{
+    text-align: right;
+    color: rgba(143, 141, 141, 0.782);
     margin-right: 5px;
 }
 ol{
@@ -32,11 +61,26 @@ ol{
 
 @media only screen and (min-width: 1080px) {
     .one-note{
-        width: 350px;
+        width: 650px;
         margin-left: auto;
         margin-right: auto;
         margin-top: 6%;
         margin-bottom: 6%;
+        font-size: x-large;
+        padding: 2%;
+    }
+    .two-note{
+        width: 650px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 6%;
+        margin-bottom: 6%;
+        font-size: x-large;
+        padding: 2%;
+    }
+    .extra-info{
+        margin-right: 10px;
+        font-size: larger;
     }
 }
 @media only screen and (max-width: 720px) {
@@ -46,10 +90,20 @@ ol{
         margin-right: auto;
         margin-top: 6%;
         margin-bottom: 6%;
-        font-size: smaller;
+        font-size: medium;
+        padding: 4%;
+    }
+    .two-note{
+        width: 55%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 6%;
+        margin-bottom: 6%;
+        font-size: medium;
+        padding: 4%;
     }
     .extra-info{
         margin-right: 10px;
-        font-size: smaller;
+        font-size: small;
     }
 }
